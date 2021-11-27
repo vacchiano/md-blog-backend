@@ -11,6 +11,7 @@ install = "*"
 dj-rest-auth = "*"
 django-allauth = "*"
 django-environ = "*"
+pillow = "*"
 
 [dev-packages]
 

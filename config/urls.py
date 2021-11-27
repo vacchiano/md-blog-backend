@@ -8,4 +8,6 @@ urlpatterns = [
     # path('auth/', include('dj_rest_auth.urls')), # for authentication (you can update url fyi)
     path('dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')), # for reg (depends on allauth)
     # path('accounts/', include('allauth.urls')), #for registration (dj-rest-auth dependency)
+
+    path('api/', include('posts.urls', namespace='posts')),
 ]
