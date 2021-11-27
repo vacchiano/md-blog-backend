@@ -1,0 +1,21 @@
+### Test Login
+POST http://127.0.0.1:8000/dj-rest-auth/login/
+Content-Type: application/json
+
+{
+    "username": "djvac",
+    "email": "djvac@sup.com",
+    "password": "password123"
+}
+
+
+### TEST SIGNUP or REGISTRATION
+POST http://127.0.0.1:8000/dj-rest-auth/registration/
+Content-Type: application/json
+
+{
+    "username": "jim",
+    "email": "jim@sup.com",
+    "password1": "Lentoid13",
+    "password2": "Lentoid13"
+}
